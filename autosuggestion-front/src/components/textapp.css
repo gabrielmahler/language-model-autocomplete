@@ -1,0 +1,68 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .corpus_selector {
+    margin-bottom: 20px;
+  }
+  
+  .text_editor {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .text-input {
+    width: 70%;
+    height: 200px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-left: 1px auto;
+  }
+  
+  .suggestions-box {
+    width: 50%;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  .suggestions-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .suggestions-list li {
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+  }
+  
+  select:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  option {
+    padding: 10px;
+  }
+
+
+  
+  
